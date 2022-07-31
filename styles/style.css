@@ -1,0 +1,82 @@
+
+/* Initial settings */
+
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+};
+@import url(//db.onlinewebfonts.com/c/7e5d4b5e37c0623759cbed868eb8c2ba?family=MAZIUS+REVIEW+20.09);
+
+@font-face {font-family: "MAZIUS REVIEW 20.09"; src: url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.eot"); src: url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.woff") format("woff"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7e5d4b5e37c0623759cbed868eb8c2ba.svg#MAZIUS REVIEW 20.09") format("svg"); }
+
+
+
+/* Core settings */
+
+body{
+    font-family: "MAZIUS REVIEW 20.09";
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+figure {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure figcaption {
+    max-width: 50%;
+}
+img{
+    max-width: 50%;
+}
+
+h1{
+    font-style: italic;
+    font-size: 10vw;
+}
+
+h2{
+    max-height: 400px;
+    max-width: 30%;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: 25rem;
+}
+
+article .first-section {
+    background-color: blueviolet;
+}
+article .second-section {
+    background-color: rgb(43, 189, 226);
+}
+article .third-section {
+    background-color: rgb(226, 43, 43);
+}
+article .third-section {
+    background-color: rgb(205, 224, 144);
+}
+article .fourth-section {
+    background-color: rgb(144, 224, 171);
+}

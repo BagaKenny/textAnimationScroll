@@ -1,0 +1,25 @@
+{
+  "name": "animated",
+  "version": "1.0.0",
+  "description": "Animation with Gsap and Scroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BagaKenny/textAnimationScroll.git"
+  },
+  "keywords": [
+    "olo1qs"
+  ],
+  "author": "Kenny Baga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BagaKenny/textAnimationScroll/issues"
+  },
+  "homepage": "https://github.com/BagaKenny/textAnimationScroll#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
